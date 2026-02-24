@@ -33,7 +33,7 @@ public class App {
         } else {
             System.out.println("Perlu Peningkatan");
         }
-        
+
         // Conditional untuk kategori umur
         System.out.print("Kategori: ");
         if (umur < 17) {
@@ -98,4 +98,3 @@ public class App {
         System.out.println("Jumlah Mata Kuliah yang Lulus: " + jumlahLulus + " dari " + nilaiUjian.length);
     }
 }
-
