@@ -20,15 +20,35 @@ public class MTitik {
         T1.setOrdinat(10);
         T2.printTitik();
 
-        System.out.println(T1.getKuadran());
+        //getKuadran
+        System.out.println("Kuadran T1: " + T1.getKuadran());
         
+        // getJarakPusat
         T1.setAbsis(3);
         T1.setOrdinat(4);
-        System.out.println(T1.GetJarakPusat());
+        System.out.println("Jarak ke pusat: " + T1.getJarakPusat());
 
+        // getJarak
+        Titik T3 = new Titik();
+        T3.setAbsis(6);
+        T3.setOrdinat(8);
+        T3.printTitik();
+        System.out.println("Jarak T1 ke T2: " + T1.getJarak(T3));
+
+        // refleksi X dan Y
         T1.refleksiX();
         T1.refleksiY();
         T1.printTitik();
+
+        // getrefleksi X dan Y
+        Titik RX = T1.getRefleksiX();
+        Titik RY = T1.getRefleksiY();
+
+        System.out.print("Refleksi X: ");
+        RX.printTitik();
+
+        System.out.print("Refleksi Y: ");
+        RY.printTitik();
 
     }
 }
