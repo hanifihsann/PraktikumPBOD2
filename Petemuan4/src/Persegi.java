@@ -1,5 +1,5 @@
-/* Nama File    : Lingkaran.java
- * Deskripsi    : berisi atribut dan method dalam class Lingkaran
+/* Nama File    : Persegi.java
+ * Deskripsi    : berisi atribut dan method dalam class Persegi
  * Pembuat      : Hanif Ihsanul Huda
  * Tanggal      : 10 Maret 2026 
  */

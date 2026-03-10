@@ -1,4 +1,4 @@
-/* Nama File    : Bangun Datar.java
+/* Nama File    : Lingkaran.java
  * Deskripsi    : berisi atribut dan method dalam class Lingkaran
  * Pembuat      : Hanif Ihsanul Huda
  * Tanggal      : 10 Maret 2026 
