@@ -1,6 +1,6 @@
 /* Nama File    : BangunDatar.java
  * Deskripsi    : berisi atribut dan method dalam class Bangun Datar
- * Pembuat      : Hanif Ihsanul Huda
+ * Pembuat      : Hanif Ihsanul Huda (24060124140183)
  * Tanggal      : 17 Maret 2026 
  */
 
