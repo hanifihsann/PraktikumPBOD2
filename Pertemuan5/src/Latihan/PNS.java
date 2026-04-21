@@ -23,15 +23,18 @@ public class PNS extends Manusia implements Pajak {
         return counterPNS;
     }
 
+    @Override
     public int hitungMasaKerja(){
         int A = 3; 
         return Period.between(tgl_mulai_kerja, LocalDate.now()).getYears() + A;
     }
 
+    @Override
     public double hitungPajak(){
         return 0.10 * pendapatan;
     }
 
+    @Override
     public void cetakInfo(){
         super.cetakInfo();
         System.out.println("NIP: " + nip);

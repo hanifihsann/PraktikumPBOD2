@@ -34,6 +34,7 @@ public class Lingkaran extends BangunDatar implements IResize {
         return 2 * Math.PI * jari;
     }
 
+    
     public void zoomIn(){
         jari = jari * 1.1;
     }

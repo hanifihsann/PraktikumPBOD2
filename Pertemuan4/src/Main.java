@@ -3,6 +3,7 @@
  * Pembuat      : Hanif Ihsanul Huda
  * Tanggal      : 10 Maret 2026 
  */
+
 public class Main {
     public static void main(String[] args) {
         Persegi P1 = new Persegi(4,"merah","hitam");

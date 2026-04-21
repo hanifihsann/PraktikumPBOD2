@@ -24,15 +24,18 @@ public class Petani extends Manusia implements Pajak {
         return counterPetani;
     }
 
+    @Override
     public int hitungMasaKerja(){
         int C = 1; 
         return Period.between(tgl_mulai_kerja, LocalDate.now()).getYears() + C;
     }
 
+    @Override
     public double hitungPajak(){
         return 0;
     }
 
+    @Override
     public void cetakInfo(){
         super.cetakInfo();
         System.out.println("Asal Kota: " + asal_kota);

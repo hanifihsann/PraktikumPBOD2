@@ -40,3 +40,4 @@ public abstract class Manusia {
         System.out.println("Pendapatan: " + pendapatan);
     }
 }
+

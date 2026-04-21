@@ -23,15 +23,18 @@ public class Pengusaha extends Manusia implements Pajak {
         return counterPengusaha;
     }
 
+    @Override
     public int hitungMasaKerja(){
         int B = 8; 
         return Period.between(tgl_mulai_kerja, LocalDate.now()).getYears() + B;
     }
 
+    @Override
     public double hitungPajak(){
         return 0.15 * pendapatan;
     }
 
+    @Override
     public void cetakInfo(){
         super.cetakInfo();
         System.out.println("NPWP: " + npwp);
