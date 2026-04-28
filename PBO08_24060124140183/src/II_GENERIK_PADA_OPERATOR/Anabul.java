@@ -1,10 +1,11 @@
 /* Nama File    : Anabul.java
  * Deskripsi    : berisi atribut dan method dalam class Anabul
  * Pembuat      : Hanif Ihsanul Huda
- * Tanggal      : 21 April 2026 
+ * Tanggal      : 28 April 2026 
  */
 
-package INCLUSION;
+package II_GENERIK_PADA_OPERATOR;
+
 class Anabul {
     String nama;
 
@@ -18,5 +19,10 @@ class Anabul {
 
     void bersuara() {
         System.out.println(nama + " bersuara");
+    }
+
+    void tampilData() {
+        System.out.println("Nama: " + nama);
+
     }
 }
