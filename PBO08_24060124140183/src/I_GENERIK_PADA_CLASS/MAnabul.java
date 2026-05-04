@@ -18,7 +18,7 @@ public class MAnabul {
             anabuls[i].gerak();
             anabuls[i].bersuara();
             anabuls[i].tampilData();
-            System.out.println();
+            System.out.println("----------------");
         }
 
         Datum<Anabul> A = new Datum<>();

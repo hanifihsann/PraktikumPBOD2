@@ -1,4 +1,4 @@
-/* Nama File    : Kucing.java
+/* Nama File    : KembangTelon.java
  * Deskripsi    : berisi atribut dan method dalam class KembangTelon turunan dari Class Kucing
  * Pembuat      : Hanif Ihsanul Huda
  * Tanggal      : 28 April 2026 

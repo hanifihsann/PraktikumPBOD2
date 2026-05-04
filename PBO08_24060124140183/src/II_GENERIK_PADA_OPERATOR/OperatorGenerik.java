@@ -1,4 +1,4 @@
-/* Nama File    : MOperator.java
+/* Nama File    : OperatorGenerik.java
  * Deskripsi    : Kelas yang berisi prosedur dan fungsi generik yaitu Tukar dan Bobot2.
  * Pembuat      : Hanif Ihsanul Huda
  * Tanggal      : 28 April 2026 

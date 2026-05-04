@@ -1,7 +1,7 @@
 /* Nama File    : Anjing.java
  * Deskripsi    : berisi atribut dan method dalam class Anjing
  * Pembuat      : Hanif Ihsanul Huda
- * Tanggal      : 21 April 2026 
+ * Tanggal      : 28 April 2026 
  */
 
 
