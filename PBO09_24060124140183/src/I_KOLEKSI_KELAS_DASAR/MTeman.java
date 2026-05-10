@@ -1,5 +1,5 @@
 /* Nama File    : MTeman.java
- * Deskripsi    : 
+ * Deskripsi    : berisi main program dari class-class yang dibuat
  * Pembuat      : Hanif Ihsanul Huda
  * Tanggal      : 5 Mei 2026 
  */
@@ -35,7 +35,7 @@ public class MTeman {
 
         System.out.println("\nJumlah elemen: " + t.getNbelm());
 
-        System.out.println("Nama indeks ke2: " + t.getNama(2));
+        System.out.println("Nama indeks ke-2: " + t.getNama(2));
 
         t.setNama(2, "Izzatu");
         System.out.println("\nSetelah indeks ke-2 diganti:");
